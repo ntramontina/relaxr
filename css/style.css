@@ -49,9 +49,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #000;
     font-size: 12px;
-    line-height: 1.5;
-    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-    background-size: cover;
+    line-height: 1.5;   
 }
 
 
@@ -63,131 +61,131 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
-
+  height: 600px;
+  background: url(../images/header_bg.jpg);
+  background-size: cover;
+  padding: 50px;
 }
 
 #pieceofmind {
-  font-weight:600;
   font-size: 24px;
-  padding: 50px 50px;
-  margin: 60px;
   text-align: center;
-
+  padding: 70px;
 }
 
 #getitnow {
-  font-weight:800;
-  font-size: 14px;
-  text-align: center;
   color: black;
+  font-size: 16px;
+  font-weight:800;
+  border-radius: 5px;
   background: #f9e42e;
   padding: 10px 50px 10px 50px;
-  margin: auto;
-  width: 30%;
-  border-radius: 3px;
-
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 90px;
+  width: 250px;
 }
 
 #benefits {
   background: white;
   width: 100%;
   margin: auto;
-  height: 500px;
-
-}
-
-#benefits h3 {
-  margin: 50px;
-  padding-top: 50px;
-
+  padding: 50px
 }
 
 #benefits p {
-  margin: 50px;
   font-size: 13px;
   font-weight: 100;
-
+  margin-top: 10px;
 }
 
 #benefits ul {
-  margin: 50px 100px;
-
+  margin: 20px 50px;
 }
 
 #testimonial {
   width: 100%;
   margin: auto;
-  height: 300px;
-  background: url(../images/testimonial_bg.jpg)
-
+  background: url(../images/testimonial_bg.jpg);
+  background-size: cover;
+  padding: 50px;
 }
 
-#testimonial p {
-  font-size: 18px;
-  font-style: 400;
+.quote {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 100;
   color: white;
   text-align: center;
-  padding-top: 50px;
-  margin-left: 250px;
-  margin-right: 250px;
-
+  margin-left: 225px;
+  margin-right: 225px;
 }
+
+.author {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
 
 #signup {
   background: #f9e42e;
   width: 100%;
   margin: auto;
-  height: 100px;
-
+  padding: 20px;
 }
 
 #signup p {
-  font-size: 18px;
+  font-weight:800;
+  font-size: 16px;
   text-align: center;
   color: white;
   background: #033048;
   padding: 10px 50px 10px 50px;
-  margin: auto;
-  width: 30%;
-
+  margin: 0 auto;
+  width: 250px;
+  border-radius: 5px;
 }
 
 #footer {
   background: #121212;
   width: 100%;
   margin: auto;
-  height: 400px;
-
+  padding: 40px;
+  text-align: center;
 }
 
 #footer footer {
   color: white;
 }
 
-header {
-
+#footeritems {
+  width: 200px;
+  margin: auto;
 }
 
-nav {
-  font-weight:800;
-  font-size: 24px;
-  margin-left: 50px;
+#logos {
+  margin: 20px;
 }
 
 h1 { 
-  font-size: 60px;
+  font-size: 28px;
+  font-weight:800;
 }
 
 h2 {
-  font-weight:600;
+  font-weight:400;
   color: white;
-  font-size: 36px;
+  font-size: 24px;
 }
 
 h3 {
   color: black;
-  font-size: 24px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 h4 {
@@ -202,9 +200,14 @@ ul {
 
 li {
   padding: 5px;
-  font-size: 13px;
-  font-weight: 100;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+}
 
+#logos img {
+  margin: 0px 10px;
+  height: 30px;
 }
 
 a:link {
@@ -225,10 +228,6 @@ a:hover {
 a:active {
     text-decoration: none;
     color: black;
-}
-
-footer {
-
 }
 
 /******************************************
